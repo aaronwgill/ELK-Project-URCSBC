@@ -64,7 +64,7 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it reduces the risk of mistakes and/or typos when configuring the machine.
 
 There were three playbooks that were used to implement the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+
 * [ELK Installation Playbook](./Ansible/install-elk.yml)
   * Selects the taget machine (ELK-VM) by stating which hosts the ELK Stack will be installed
   * Installs docker.io package using 'apt'
@@ -117,7 +117,6 @@ An example of what your groups should look like is shown below:
 
 - Run the playbook, and navigate to 'http://<PUBLIC ip OF ELK SERVER>:5601' to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - Which file is the playbook? 'filebeat-playbook.yml'
 - Where do you copy it? '/etc/ansible/roles'
 - Which file do you update to make Ansible run the playbook on a specific machine? '/etc/ansible/hosts' use the private IP addresses of the Virtual Machines
